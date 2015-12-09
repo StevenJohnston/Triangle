@@ -42,5 +42,13 @@ namespace Triangle_Test
             triangle.SideTwo = 4;
             Assert.AreEqual(5, triangle.GetHypotenuse());
         }
+        [TestMethod]
+        public void TestGetArea()
+        {
+            Triangle triangle = new Triangle();
+            triangle.SideOne = 3;
+            triangle.SideTwo = 4;
+            Assert.AreEqual(5, triangle.GetArea());
+        }
     }
 }

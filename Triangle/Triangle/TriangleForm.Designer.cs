@@ -32,10 +32,10 @@
             this.btnMissingAngle = new System.Windows.Forms.Button();
             this.txtLengthTwo = new System.Windows.Forms.TextBox();
             this.txtLengthOne = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtAngleOne = new System.Windows.Forms.TextBox();
+            this.txtAngleTwo = new System.Windows.Forms.TextBox();
             this.txtLengthThree = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txtAngleThree = new System.Windows.Forms.TextBox();
             this.btnArea = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -53,6 +53,7 @@
             this.btnRightAngle.TabIndex = 0;
             this.btnRightAngle.Text = "Hypotenuse";
             this.btnRightAngle.UseVisualStyleBackColor = true;
+            this.btnRightAngle.Click += new System.EventHandler(this.btnRightAngle_Click);
             // 
             // btnMissingAngle
             // 
@@ -62,6 +63,7 @@
             this.btnMissingAngle.TabIndex = 1;
             this.btnMissingAngle.Text = "Missing Angle";
             this.btnMissingAngle.UseVisualStyleBackColor = true;
+            this.btnMissingAngle.Click += new System.EventHandler(this.btnMissingAngle_Click);
             // 
             // txtLengthTwo
             // 
@@ -77,19 +79,19 @@
             this.txtLengthOne.Size = new System.Drawing.Size(100, 20);
             this.txtLengthOne.TabIndex = 4;
             // 
-            // textBox3
+            // txtAngleOne
             // 
-            this.textBox3.Location = new System.Drawing.Point(257, 29);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 5;
+            this.txtAngleOne.Location = new System.Drawing.Point(257, 29);
+            this.txtAngleOne.Name = "txtAngleOne";
+            this.txtAngleOne.Size = new System.Drawing.Size(100, 20);
+            this.txtAngleOne.TabIndex = 5;
             // 
-            // textBox4
+            // txtAngleTwo
             // 
-            this.textBox4.Location = new System.Drawing.Point(257, 55);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 6;
+            this.txtAngleTwo.Location = new System.Drawing.Point(257, 55);
+            this.txtAngleTwo.Name = "txtAngleTwo";
+            this.txtAngleTwo.Size = new System.Drawing.Size(100, 20);
+            this.txtAngleTwo.TabIndex = 6;
             // 
             // txtLengthThree
             // 
@@ -99,13 +101,13 @@
             this.txtLengthThree.Size = new System.Drawing.Size(100, 20);
             this.txtLengthThree.TabIndex = 7;
             // 
-            // textBox6
+            // txtAngleThree
             // 
-            this.textBox6.Enabled = false;
-            this.textBox6.Location = new System.Drawing.Point(257, 110);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 20);
-            this.textBox6.TabIndex = 8;
+            this.txtAngleThree.Enabled = false;
+            this.txtAngleThree.Location = new System.Drawing.Point(257, 110);
+            this.txtAngleThree.Name = "txtAngleThree";
+            this.txtAngleThree.Size = new System.Drawing.Size(100, 20);
+            this.txtAngleThree.TabIndex = 8;
             // 
             // btnArea
             // 
@@ -115,6 +117,7 @@
             this.btnArea.TabIndex = 9;
             this.btnArea.Text = "Area";
             this.btnArea.UseVisualStyleBackColor = true;
+            this.btnArea.Click += new System.EventHandler(this.btnArea_Click);
             // 
             // label1
             // 
@@ -182,10 +185,10 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnArea);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.txtAngleThree);
             this.Controls.Add(this.txtLengthThree);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txtAngleTwo);
+            this.Controls.Add(this.txtAngleOne);
             this.Controls.Add(this.txtLengthOne);
             this.Controls.Add(this.txtLengthTwo);
             this.Controls.Add(this.btnMissingAngle);
@@ -203,10 +206,10 @@
         private System.Windows.Forms.Button btnMissingAngle;
         private System.Windows.Forms.TextBox txtLengthTwo;
         private System.Windows.Forms.TextBox txtLengthOne;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtAngleOne;
+        private System.Windows.Forms.TextBox txtAngleTwo;
         private System.Windows.Forms.TextBox txtLengthThree;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txtAngleThree;
         private System.Windows.Forms.Button btnArea;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;

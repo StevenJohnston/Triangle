@@ -10,8 +10,8 @@ namespace Triangle_Test
         public void TestSetSideLengthOne()
         {
             Triangle triangle = new Triangle();
-            triangle.SideOne = "";
-            Assert.AreEqual(triangle.GetHypotenuse(), 1);
+            triangle.SideOne = 1;
+            Assert.AreEqual(triangle.SideOne, 0);
         }
     }
 }

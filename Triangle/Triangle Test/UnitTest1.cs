@@ -7,14 +7,14 @@ namespace Triangle_Test
     public class UnitTest1
     {
         [TestMethod]
-        public void TestSetSideLengthOne()
+        public void TestSetGetSideLengthOne()
         {
             Triangle triangle = new Triangle();
             triangle.SideOne = 1;
             Assert.AreEqual(triangle.SideOne, 1);
         }
         [TestMethod]
-        public void TestSetSideLengthTwo()
+        public void TestSetGetSideLengthTwo()
         {
             Triangle triangle = new Triangle();
             triangle.SideTwo = 1;

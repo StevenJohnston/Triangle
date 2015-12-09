@@ -27,5 +27,12 @@ namespace Triangle_Test
             triangle.AngleOne = 10.5;
             Assert.AreEqual(triangle.AngleOne, 10.5);
         }
+        [TestMethod]
+        public void TestSetGetAngleTwo()
+        {
+            Triangle triangle = new Triangle();
+            triangle.AngleTwo = 10.5;
+            Assert.AreEqual(triangle.AngleTwo, 10.5);
+        }
     }
 }

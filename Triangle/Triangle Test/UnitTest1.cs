@@ -13,11 +13,5 @@ namespace Triangle_Test
             triangle.SideOne = "";
             Assert.AreEqual(triangle.GetHypotenuse(), 1);
         }
-        [TestMethod]
-        public void TestRightAngleHypotenuse()
-        {
-            Triangle triangle = new Triangle();
-            Assert.AreEqual(triangle.GetHypotenuse(), 1);
-        }
     }
 }

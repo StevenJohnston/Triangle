@@ -45,16 +45,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Triangle.cs">
+    <Compile Include="Triangle.cs" />
+    <Compile Include="TriangleForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Triangle.Designer.cs">
-      <DependentUpon>Triangle.cs</DependentUpon>
+    <Compile Include="TriangleForm.Designer.cs">
+      <DependentUpon>TriangleForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Triangle.resx">
-      <DependentUpon>Triangle.cs</DependentUpon>
+    <EmbeddedResource Include="TriangleForm.resx">
+      <DependentUpon>TriangleForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

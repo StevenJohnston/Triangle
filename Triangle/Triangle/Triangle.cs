@@ -8,6 +8,7 @@ namespace TriangleNS
 {
     public class Triangle
     {
+        double angleTwo;
         double angleOne;
         double sideOne;
         double sideTwo;
@@ -50,6 +51,19 @@ namespace TriangleNS
             {
                 if (value > 0)
                     sideTwo = value;
+            }
+        }
+
+        public double AngleTwo
+        {
+            get
+            {
+                return angleTwo;
+            }
+
+            set
+            {
+                angleTwo = value;
             }
         }
     }

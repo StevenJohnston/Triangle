@@ -32,7 +32,7 @@ namespace Triangle_Test
         {
             Triangle triangle = new Triangle();
             triangle.AngleTwo = 10.5;
-            Assert.AreEqual(triangle.AngleTwo, 1);
+            Assert.AreEqual(triangle.AngleTwo, 10.5);
         }
     }
 }

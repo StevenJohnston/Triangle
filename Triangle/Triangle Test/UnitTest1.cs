@@ -34,5 +34,14 @@ namespace Triangle_Test
             triangle.AngleTwo = 10.5;
             Assert.AreEqual(triangle.AngleTwo, 10.5);
         }
+        [TestMethod]
+        public void TestGetHypotenuse()
+        {
+            Triangle triangle = new Triangle();
+            triangle.SideOne = 5;
+            triangle.SideTwo = 10;
+            triangle.AngleTwo = 10.5;
+            Assert.AreEqual(triangle.GetHypotenuse(), 1);
+        }
     }
 }

@@ -12,6 +12,8 @@ namespace TriangleNS
         double angleOne;
         double sideOne;
         double sideTwo;
+        double sideThree;
+        double angleThree;
 
         public double AngleOne
         {
@@ -64,6 +66,32 @@ namespace TriangleNS
             set
             {
                 angleTwo = value;
+            }
+        }
+
+        public double SideThree
+        {
+            get
+            {
+                return sideThree;
+            }
+
+            set
+            {
+                sideThree = value;
+            }
+        }
+
+        public double AngleThree
+        {
+            get
+            {
+                return angleThree;
+            }
+
+            set
+            {
+                angleThree = value;
             }
         }
     }

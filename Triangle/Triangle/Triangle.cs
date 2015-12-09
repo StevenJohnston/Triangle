@@ -8,8 +8,23 @@ namespace TriangleNS
 {
     public class Triangle
     {
+        double AngleOne;
         double sideOne;
         double sideTwo;
+
+        public double AngleOne1
+        {
+            get
+            {
+                return AngleOne;
+            }
+
+            set
+            {
+                AngleOne = value;
+            }
+        }
+
         public double SideOne
         {
             get

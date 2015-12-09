@@ -82,6 +82,11 @@ namespace TriangleNS
             return Math.Sqrt(SideOne * sideOne + SideTwo * SideTwo);
         }
 
+        public double GetArea()
+        {
+            return sideOne * sideTwo / 2;
+        }
+
         public double AngleThree
         {
             get

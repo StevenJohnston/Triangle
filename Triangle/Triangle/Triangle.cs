@@ -75,11 +75,6 @@ namespace TriangleNS
             {
                 return sideThree;
             }
-
-            set
-            {
-                sideThree = value;
-            }
         }
 
         public double AngleThree
@@ -87,11 +82,6 @@ namespace TriangleNS
             get
             {
                 return angleThree;
-            }
-
-            set
-            {
-                angleThree = value;
             }
         }
     }

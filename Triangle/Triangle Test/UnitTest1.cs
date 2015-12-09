@@ -25,7 +25,7 @@ namespace Triangle_Test
         {
             Triangle triangle = new Triangle();
             triangle.AngleOne = 10.5;
-            Assert.AreEqual(triangle.AngleOne, 1);
+            Assert.AreEqual(triangle.AngleOne, 10.5);
         }
     }
 }

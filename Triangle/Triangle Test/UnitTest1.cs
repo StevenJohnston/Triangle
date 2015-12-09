@@ -55,9 +55,9 @@ namespace Triangle_Test
         public void TestGetMissingAngle()
         {
             Triangle triangle = new Triangle();
-            triangle.AngleOne = 45;
+            triangle.AngleOne = 50;
             triangle.AngleTwo = 90;
-            Assert.AreEqual(33, triangle.GetMissingAngle());
+            Assert.AreEqual(40, triangle.GetMissingAngle());
         }
     }
 }

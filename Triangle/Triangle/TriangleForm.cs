@@ -1,4 +1,10 @@
-﻿using System;
+﻿/*
+    Name: Steven Johnston
+    Date: 12/9/2015
+    Assignment: #3
+*/
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;

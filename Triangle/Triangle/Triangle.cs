@@ -17,7 +17,12 @@ namespace TriangleNS
         double angleOne;
         double sideOne;
         double sideTwo;
-
+        /// <summary>
+        /// Gets or sets the angle one.
+        /// </summary>
+        /// <value>
+        /// The angle one.
+        /// </value>
         public double AngleOne
         {
             get
@@ -30,7 +35,12 @@ namespace TriangleNS
                 angleOne = value;
             }
         }
-
+        /// <summary>
+        /// Gets or sets the side one.
+        /// </summary>
+        /// <value>
+        /// The side one.
+        /// </value>
         public double SideOne
         {
             get
@@ -44,7 +54,12 @@ namespace TriangleNS
                     sideOne = value;
             }
         }
-
+        /// <summary>
+        /// Gets or sets the side two.
+        /// </summary>
+        /// <value>
+        /// The side two.
+        /// </value>
         public double SideTwo
         {
             get
@@ -58,7 +73,12 @@ namespace TriangleNS
                     sideTwo = value;
             }
         }
-
+        /// <summary>
+        /// Gets or sets the angle two.
+        /// </summary>
+        /// <value>
+        /// The angle two.
+        /// </value>
         public double AngleTwo
         {
             get
@@ -71,18 +91,27 @@ namespace TriangleNS
                 angleTwo = value;
             }
         }
-        
 
+        /// <summary>
+        /// Gets the hypotenuse.
+        /// </summary>
+        /// <returns></returns>
         public double GetHypotenuse()
         {
             return Math.Sqrt(SideOne * sideOne + SideTwo * SideTwo);
         }
-
+        /// <summary>
+        /// Gets the area.
+        /// </summary>
+        /// <returns></returns>
         public double GetArea()
         {
             return sideOne * sideTwo / 2;
         }
-
+        /// <summary>
+        /// Gets the missing angle.
+        /// </summary>
+        /// <returns></returns>
         public double GetMissingAngle()
         {
             return 180 - angleOne - angleTwo;

@@ -18,7 +18,7 @@ namespace Triangle_Test
         {
             Triangle triangle = new Triangle();
             triangle.SideTwo = 1;
-            Assert.AreEqual(triangle.SideTwo, 1);
+            Assert.AreEqual(triangle.SideTwo,0);
         }
     }
 }

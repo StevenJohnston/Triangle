@@ -94,5 +94,10 @@ namespace TriangleNS
                 return angleThree;
             }
         }
+
+        public double GetMissingAngle()
+        {
+            return 180 - angleOne - angleTwo;
+        }
     }
 }

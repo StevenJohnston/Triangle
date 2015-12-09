@@ -8,20 +8,20 @@ namespace TriangleNS
 {
     public class Triangle
     {
-        double AngleOne;
+        double angleOne;
         double sideOne;
         double sideTwo;
 
-        public double AngleOne1
+        public double AngleOne
         {
             get
             {
-                return AngleOne;
+                return angleOne;
             }
 
             set
             {
-                AngleOne = value;
+                angleOne = value;
             }
         }
 

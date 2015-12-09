@@ -19,7 +19,8 @@ namespace TriangleNS
 
             set
             {
-                sideOne = value;
+                if(value > 0)
+                    sideOne = value;
             }
         }
     }

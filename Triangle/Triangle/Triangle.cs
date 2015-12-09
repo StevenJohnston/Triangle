@@ -77,6 +77,11 @@ namespace TriangleNS
             }
         }
 
+        public double GetHypotenuse()
+        {
+            return Math.Sqrt(SideOne * sideOne + SideTwo + SideTwo);
+        }
+
         public double AngleThree
         {
             get

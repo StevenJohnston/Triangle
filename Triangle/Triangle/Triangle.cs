@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*
+    Name: Steven Johnston
+    Date: 12/9/2015
+    Assignment: #3
+*/
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,8 +17,6 @@ namespace TriangleNS
         double angleOne;
         double sideOne;
         double sideTwo;
-        double sideThree;
-        double angleThree;
 
         public double AngleOne
         {
@@ -68,14 +71,7 @@ namespace TriangleNS
                 angleTwo = value;
             }
         }
-
-        public double SideThree
-        {
-            get
-            {
-                return sideThree;
-            }
-        }
+        
 
         public double GetHypotenuse()
         {
@@ -85,14 +81,6 @@ namespace TriangleNS
         public double GetArea()
         {
             return sideOne * sideTwo / 2;
-        }
-
-        public double AngleThree
-        {
-            get
-            {
-                return angleThree;
-            }
         }
 
         public double GetMissingAngle()

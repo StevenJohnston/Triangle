@@ -11,28 +11,28 @@ namespace Triangle_Test
         {
             Triangle triangle = new Triangle();
             triangle.SideOne = 1;
-            Assert.AreEqual(triangle.SideOne, 1);
+            Assert.AreEqual( 1, triangle.SideOne);
         }
         [TestMethod]
         public void TestSetGetSideLengthTwo()
         {
             Triangle triangle = new Triangle();
             triangle.SideTwo = 1;
-            Assert.AreEqual(triangle.SideTwo,1);
+            Assert.AreEqual(1, triangle.SideTwo);
         }
         [TestMethod]
         public void TestSetGetAngleOne()
         {
             Triangle triangle = new Triangle();
             triangle.AngleOne = 10.5;
-            Assert.AreEqual(triangle.AngleOne, 10.5);
+            Assert.AreEqual( 10.5,triangle.AngleOne);
         }
         [TestMethod]
         public void TestSetGetAngleTwo()
         {
             Triangle triangle = new Triangle();
             triangle.AngleTwo = 10.5;
-            Assert.AreEqual(triangle.AngleTwo, 10.5);
+            Assert.AreEqual(10.5,triangle.AngleTwo);
         }
         [TestMethod]
         public void TestGetHypotenuse()

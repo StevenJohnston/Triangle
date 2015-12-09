@@ -9,7 +9,7 @@ namespace TriangleNS
     public class Triangle
     {
         double sideOne;
-
+        double sideTwo;
         public double SideOne
         {
             get
@@ -21,6 +21,20 @@ namespace TriangleNS
             {
                 if(value > 0)
                     sideOne = value;
+            }
+        }
+
+        public double SideTwo
+        {
+            get
+            {
+                return sideTwo;
+            }
+
+            set
+            {
+                if (value > 0)
+                    sideTwo = value;
             }
         }
     }
